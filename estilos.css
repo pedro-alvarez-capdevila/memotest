@@ -1,0 +1,33 @@
+#contenedor {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 91vh;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 80vh;
+    gap: 5px;
+}
+img {
+    width: 13vw;
+    height: 13vw;
+}
+.scores {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
+#juega {
+    background-color: rgb(126, 126, 126);
+    width: fit-content;
+    font-size: 1.5em;
+}
+#h1Result1 {
+    color: red;
+}
